@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CleanText Legal</title>
+  <meta name="robots" content="noindex" />
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#0f172a;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+      --border:#1f2937;
+      --accent:#60a5fa;
+      --accent2:#34d399;
+    }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 600px at 20% -10%, rgba(96,165,250,.22), transparent 60%),
+                  radial-gradient(1000px 600px at 100% 0%, rgba(52,211,153,.18), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+    }
+    .wrap{max-width:900px;margin:0 auto;padding:28px 16px 56px;}
+    .top{
+      display:flex;gap:12px;align-items:center;justify-content:space-between;
+      margin-bottom:18px;flex-wrap:wrap;
+    }
+    .brand{display:flex;flex-direction:column;gap:6px}
+    .brand h1{margin:0;font-size:22px;letter-spacing:.2px}
+    .brand p{margin:0;color:var(--muted);font-size:13px}
+    .lang{
+      display:flex;gap:8px;align-items:center;
+      background:rgba(15,23,42,.75);border:1px solid var(--border);
+      padding:8px;border-radius:14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    .btn{
+      border:1px solid var(--border);
+      background:transparent;color:var(--text);
+      padding:8px 12px;border-radius:12px;
+      cursor:pointer;font-weight:600;font-size:13px;
+    }
+    .btn.active{
+      border-color:rgba(96,165,250,.65);
+      background:rgba(96,165,250,.18);
+    }
+    .card{
+      background:rgba(15,23,42,.78);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:18px 16px;
+      box-shadow: 0 12px 40px rgba(0,0,0,.28);
+      backdrop-filter: blur(10px);
+      margin-top:14px;
+    }
+    h2{margin:0 0 10px;font-size:18px}
+    h3{margin:18px 0 8px;font-size:15px}
+    p,li{color:var(--text);line-height:1.75;font-size:14px}
+    .muted{color:var(--muted);font-size:12px}
+    ul{margin:8px 0 0 18px}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .footer{margin-top:18px;color:var(--muted);font-size:12px}
+    .pill{
+      display:inline-block;
+      padding:4px 10px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      font-size:12px;
+      color:var(--muted);
+      margin-right:8px;
+    }
+    .divider{height:1px;background:var(--border);margin:16px 0;}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">
+        <h1>CleanText — Legal</h1>
+        <p class="muted">Terms of Service / Privacy Policy / Legal Notice (Japan)</p>
+      </div>
+
+      <div class="lang" role="tablist" aria-label="Language switch">
+        <button class="btn" id="btn-ja" type="button">日本語</button>
+        <button class="btn" id="btn-en" type="button">English</button>
+      </div>
+    </div>
+
+    <!-- 日本語 -->
+    <section id="content-ja" class="card" lang="ja">
+      <div>
+        <span class="pill">最終更新日：2025-12-20</span>
+        <span class="pill">アプリ：CleanText</span>
+      </div>
+
+      <h2>利用規約</h2>
+      <p>
+        この利用規約（以下「本規約」）は、本アプリ「CleanText」（以下「本アプリ」）の利用条件を定めるものです。
+        ユーザーは、本規約に同意した上で本アプリを利用するものとします。
+      </p>
+
+      <h3>第1条（サービス内容）</h3>
+      <p>
+        本アプリは、ユーザーが入力したテキストを整形・加工するためのツールです。
+        本アプリは、入力テキストの内容や意味、正確性、有用性等を保証するものではありません。
+      </p>
+
+      <h3>第2条（禁止事項）</h3>
+      <ul>
+        <li>法令または公序良俗に違反する行為</li>
+        <li>本アプリの運営を妨害する行為</li>
+        <li>不正アクセス、改ざん、リバースエンジニアリング等の不正行為（またはその試み）</li>
+      </ul>
+
+      <h3>第3条（免責事項）</h3>
+      <ul>
+        <li>本アプリの利用によりユーザーに生じたいかなる損害についても、運営者は責任を負いません。</li>
+        <li>本アプリの機能・仕様は予告なく変更される場合があります。</li>
+        <li>本アプリの提供中断または終了により生じた損害についても、運営者は責任を負いません。</li>
+      </ul>
+
+      <h3>第4条（規約の変更）</h3>
+      <p>
+        運営者は、必要に応じて本規約を変更することができます。変更後の本規約は、本ページに掲載された時点で効力を生じます。
+      </p>
+
+      <h3>第5条（準拠法）</h3>
+      <p>本規約は日本法に準拠します。</p>
+
+      <div class="divider"></div>
+
+      <h2>プライバシーポリシー</h2>
+      <p>
+        本アプリは、ユーザーのプライバシーを尊重し、以下の方針に基づいて運営されます。
+      </p>
+
+      <h3>1. 取得する情報</h3>
+      <p>本アプリは、氏名、メールアドレス、住所等の個人情報を取得しません。</p>
+
+      <h3>2. 入力テキストの取り扱い</h3>
+      <p>
+        本アプリで入力されたテキストは、端末内でのみ処理されます。入力テキストが外部サーバーへ送信されることはありません。
+      </p>
+
+      <h3>3. 端末内保存（永続化）について</h3>
+      <p>
+        本アプリは、入力テキストや処理結果を端末内に保存（永続化）しません。<br/>
+        ※OSの仕様により、アプリ切り替え中の一時的な表示状態が保持される場合があります。
+      </p>
+
+      <h3>4. 広告・解析・外部SDK</h3>
+      <p>
+        本アプリは、広告配信サービス、利用状況解析ツール、外部SDK（分析・広告目的）を使用していません。
+      </p>
+
+      <h3>5. 第三者提供</h3>
+      <p>本アプリは、ユーザーに関する情報を第三者へ提供しません。</p>
+
+      <h3>6. お問い合わせ</h3>
+      <p class="muted">
+        ※連絡先（メール等）は、ストア上の開発者連絡先、または運営者の公開窓口に準じます。
+      </p>
+
+      <h3>7. 改定</h3>
+      <p>本ポリシーは、必要に応じて変更される場合があります。変更後の内容は、本ページへの掲載時点から適用されます。</p>
+
+      <div class="divider"></div>
+
+      <h2>特定商取引法に基づく表記</h2>
+      <p class="muted">※本アプリは現時点では無料で提供されています（アプリ内課金・広告なし想定）。</p>
+
+      <h3>販売事業者名</h3>
+      <p>個人開発者</p>
+
+      <h3>運営責任者</h3>
+      <p>個人開発者</p>
+
+      <h3>所在地</h3>
+      <p>請求があった場合、遅滞なく開示します。</p>
+
+      <h3>連絡先</h3>
+      <p>請求があった場合、遅滞なく開示します。</p>
+
+      <h3>販売価格</h3>
+      <p>無料</p>
+
+      <h3>商品代金以外の必要料金</h3>
+      <p>なし（通信費等はユーザーの契約内容に従います）</p>
+
+      <h3>支払方法・支払時期</h3>
+      <p>該当なし</p>
+
+      <h3>提供時期</h3>
+      <p>ダウンロード後、即時利用可能</p>
+
+      <h3>返品・キャンセル</h3>
+      <p>デジタルコンテンツの性質上、返品・キャンセルはできません。</p>
+
+      <div class="footer">
+        <p>© CleanText. All rights reserved.</p>
+      </div>
+    </section>
+
+    <!-- English -->
+    <section id="content-en" class="card" lang="en" style="display:none;">
+      <div>
+        <span class="pill">Last updated: 2025-12-20</span>
+        <span class="pill">App: CleanText</span>
+      </div>
+
+      <h2>Terms of Service</h2>
+      <p>
+        These Terms of Service ("Terms") govern your use of CleanText (the "App").
+        By using the App, you agree to these Terms.
+      </p>
+
+      <h3>1. What the App Does</h3>
+      <p>
+        The App is a utility tool that formats and transforms text you input.
+        The App does not guarantee the accuracy, completeness, or suitability of any text content.
+      </p>
+
+      <h3>2. Prohibited Use</h3>
+      <ul>
+        <li>Using the App in violation of laws or public order</li>
+        <li>Interfering with the operation of the App</li>
+        <li>Attempting unauthorized access, tampering, reverse engineering, or similar misconduct</li>
+      </ul>
+
+      <h3>3. Disclaimer</h3>
+      <ul>
+        <li>To the maximum extent permitted by law, the developer is not liable for any damages arising from your use of the App.</li>
+        <li>The App’s features and specifications may change without notice.</li>
+        <li>The developer is not liable for damages caused by service interruption or termination.</li>
+      </ul>
+
+      <h3>4. Changes to These Terms</h3>
+      <p>
+        We may update these Terms when necessary. Updated Terms become effective when posted on this page.
+      </p>
+
+      <h3>5. Governing Law</h3>
+      <p>These Terms are governed by the laws of Japan.</p>
+
+      <div class="divider"></div>
+
+      <h2>Privacy Policy</h2>
+      <p>The App respects your privacy and operates under the following policy.</p>
+
+      <h3>1. Information We Collect</h3>
+      <p>The App does not collect personal information such as your name, email address, or postal address.</p>
+
+      <h3>2. Text You Enter</h3>
+      <p>
+        Text you paste or type into the App is processed only on your device.
+        The App does not transmit your text to any external server.
+      </p>
+
+      <h3>3. On-device Storage (Persistence)</h3>
+      <p>
+        The App does not permanently store your input text or processed output.<br/>
+        Note: Depending on OS behavior, some on-screen state may be temporarily retained while switching apps.
+      </p>
+
+      <h3>4. Ads, Analytics, and Third-Party SDKs</h3>
+      <p>The App does not use advertising services, analytics tools, or third-party SDKs for tracking/ads.</p>
+
+      <h3>5. Data Sharing</h3>
+      <p>The App does not share user information with third parties.</p>
+
+      <h3>6. Contact</h3>
+      <p class="muted">Contact information follows the developer contact shown on the app store listing or other public contact channel.</p>
+
+      <h3>7. Changes</h3>
+      <p>We may update this policy when necessary. Updates become effective when posted on this page.</p>
+
+      <div class="divider"></div>
+
+      <h2>Legal Notice (Japan) / Act on Specified Commercial Transactions</h2>
+      <p class="muted">The App is currently provided free of charge (no in-app purchases / no ads assumed).</p>
+
+      <h3>Seller</h3>
+      <p>Individual developer</p>
+
+      <h3>Responsible person</h3>
+      <p>Individual developer</p>
+
+      <h3>Address</h3>
+      <p>Will be disclosed without delay upon legitimate request.</p>
+
+      <h3>Contact</h3>
+      <p>Will be disclosed without delay upon legitimate request.</p>
+
+      <h3>Price</h3>
+      <p>Free</p>
+
+      <h3>Additional fees</h3>
+      <p>None (network/data charges depend on the user’s carrier/plan)</p>
+
+      <h3>Payment method / timing</h3>
+      <p>Not applicable</p>
+
+      <h3>Delivery time</h3>
+      <p>Available immediately after download</p>
+
+      <h3>Returns / cancellations</h3>
+      <p>Due to the nature of digital content, returns and cancellations are not accepted.</p>
+
+      <div class="footer">
+        <p>© CleanText. All rights reserved.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <script>
+    const btnJa = document.getElementById('btn-ja');
+    const btnEn = document.getElementById('btn-en');
+    const ja = document.getElementById('content-ja');
+    const en = document.getElementById('content-en');
+
+    function setLang(lang){
+      const isJa = lang === 'ja';
+      ja.style.display = isJa ? '' : 'none';
+      en.style.display = isJa ? 'none' : '';
+      btnJa.classList.toggle('active', isJa);
+      btnEn.classList.toggle('active', !isJa);
+      document.documentElement.lang = isJa ? 'ja' : 'en';
+      localStorage.setItem('cleantext_lang', lang);
+    }
+
+    btnJa.addEventListener('click', () => setLang('ja'));
+    btnEn.addEventListener('click', () => setLang('en'));
+
+    const saved = localStorage.getItem('cleantext_lang');
+    const prefersJa = (navigator.language || '').toLowerCase().startsWith('ja');
+    setLang(saved || (prefersJa ? 'ja' : 'en'));
+  </script>
+</body>
+</html>
