@@ -1,10 +1,10 @@
-# CleanText Legal
+# NeatPaste Legal
 
-Public legal pages for CleanText.
+Public legal pages for NeatPaste.
 
 Published pages:
 
-- https://keyroid.github.io/cleantext-legal/
-- https://keyroid.github.io/cleantext-legal/privacy.html
-- https://keyroid.github.io/cleantext-legal/terms.html
-- https://keyroid.github.io/cleantext-legal/tokusho.html
+- https://keyroid.github.io/neatpaste-legal/
+- https://keyroid.github.io/neatpaste-legal/privacy.html
+- https://keyroid.github.io/neatpaste-legal/terms.html
+- https://keyroid.github.io/neatpaste-legal/tokusho.html
